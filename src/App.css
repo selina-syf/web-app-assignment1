@@ -33,6 +33,10 @@
   }
 }
 
+.error {
+  color: red;
+}
+
 .card {
   padding: 8px;
   background-color: rgb(235, 235, 235);
