@@ -23,9 +23,9 @@ a:hover {
 }
 
 body {
- margin: auto;
-width:980px;
-} 
+  margin: auto;
+  width: 980px;
+}
 
 h1 {
   font-size: 3.2em;
@@ -64,8 +64,6 @@ button:focus-visible {
   }
 }
 nav {
-float:right;
-font-size:x-large;
-
+  float: right;
+  font-size: x-large;
 }
-

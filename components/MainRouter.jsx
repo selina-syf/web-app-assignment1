@@ -1,21 +1,21 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./src/about";
-import Contact from "./src/contact";
-import Education from "./src/education";
-import Project from "./src/project";
-import Layout from "./components/Layout";
-import Counter from './src/counter';
-import Star from './src/star';
-import Input from './src/input';
-import Option from './src/option';
-import Checkbox from './src/checkBox';
-import Multiple from "./src/multiple"; 
-import Fruit from './src/fruit';
-import Uncontrolled from './src/uncontrolled';
-import Example from './src/example';
-import Register from './src/register';
+import Home from "./Home";
+import About from "../src/about";
+import Contact from "../src/contact";
+import Education from "../src/education";
+import Project from "../src/project";
+import Layout from "./Layout";
+import Counter from '../src/counter';
+import Star from '../src/star';
+import Input from '../src/input';
+import Option from '../src/option';
+import Checkbox from '../src/checkBox';
+import Multiple from "../src/multiple"; 
+import Fruit from '../src/fruit';
+import Uncontrolled from '../src/uncontrolled';
+import Example from '../src/example';
+import Register from '../src/register';
 
 const MainRouter = () => {
   return (

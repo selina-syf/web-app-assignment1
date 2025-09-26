@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
 export default function StarRating({ totalStars = 5 }) {
   const [selectedStars, setSelectedStars] = useState(0);
+  
   const createArray = (length) => {
     return Array.from({ length }, (_, index) => index);
   };
+
   return (
     <>
       {createArray(totalStars).map((n, i) => (
