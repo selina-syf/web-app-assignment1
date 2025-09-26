@@ -1,3 +1,3 @@
 export default function Home() {
-  return <p>Hello to Selina Sun's portfolio!</p>;
+  return <p>Hello, welcome to Selina Sun's portfolio!</p>;
 }

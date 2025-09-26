@@ -1,6 +1,4 @@
-import './project.css'
-
-export default function Project() {
+export default function Projects() {
   return (
     <div>
       <div className="title">
