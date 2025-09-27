@@ -1,54 +1,38 @@
 export default function Projects() {
   return (
     <div>
-      <div className="title">
-        PROJECT 1
+      <div className="title">Fraction Calculator (C# Windows Forms)
       </div>
-      <div> Sep 2024 - Present</div>
-      <div>Centennial College, Toronto GPA: 4.3 \ 4.5</div>
       <div className="content">
         <ul>
-          <li>Linux/Unix OS</li>
-          <li>Database Concepts (SQL)</li>
-          <li>AI Foundations Testing & Quality Assurance</li>
-          <li>C# Programming</li>
-          <li>Web Interface Design Web Application Development</li>
-          <li>Java Programming</li>
-          <li>Ethics of AI</li>
+          <li>Description: A desktop calculator built with C# and Windows Forms, capable of performing arithmetic operations on fractions (addition, subtraction, multiplication, division).</li>
+          <li>My Role: Implemented the logic for fraction operations, built the UI with WinForms controls, and ensured error handling for invalid inputs.</li>
+          <li>Outcome: A functional tool demonstrating my skills in object-oriented programming, UI design, and C# development.</li>
+          
         </ul>
       </div>
-      <div className="title">English for Academic Purposes</div>
-      <div>Sep 2023 - Apr 2024</div>
-      <div>Centennial College, Toronto</div>
+      <div className="title">Mad Libs Word Game (JavaScript)</div>
       <div className="content">
         <ul>
           <li>
-            Communicate competently at a level required for postsecondary
-            studies, showing flexibility and clarity of thought and expression.
+            Description: An interactive Mad Libs-style game where users input words into a form, and the program generates a funny story. Includes form validation to ensure all fields are filled correctly.
           </li>
           <li>
-            Conduct research and write essays according to academic conventions
-            at a level required by colleges, universities, and the workplace.
+            My Role: Built the input form, added validation using JavaScript, and designed the story output function.
           </li>
+          <li>Outcome: A fun and engaging project showcasing JavaScript DOM manipulation, form handling, and creative UI.</li>
         </ul>
       </div>
-      <div className="title">Materials Forming and Control Engineering</div>
-      <div>Sep 2018 - Jul 2022</div>
-      <div>Liaoning University of Technology - China</div>
+      <div className="title">Library Management System (Java)</div>
       <div className="content">
         <ul>
           <li>
-            Familiarity with foundational theories in the field, including
-            material mechanics, fluid mechanics, thermodynamics, and related
-            concepts, enabling an understanding of material behaviour and
-            properties during forming processes.
+           Description: A Java-based application designed to manage a library's collection of books and related information. The program allows adding, updating, and deleting book records, as well as storing author, publication date, and other details.
           </li>
           <li>
-            Proficiency in various material forming processes and control
-            techniques, such as injection moulding, extrusion moulding,
-            compression moulding, etc., along with adeptness in operating
-            relevant equipment and tools.
+            My Role: Designed the classes (e.g., Book, Author) and implemented methods for CRUD operations. Focused on building clean, object-oriented code with constructors, getters/setters, and toString methods.
           </li>
+          <li>Outcome: Produced a structured and modular application demonstrating Java OOP skills and the ability to manage data effectively in a real-world scenario.</li>
         </ul>
       </div>
     </div>
